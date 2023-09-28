@@ -5,8 +5,8 @@ import TopFilters from "../TopFilters";
 import Clothes from "../ProductList/ProductList";
 
 import styles from "./inventoryLayout.module.scss";
-import { useProductListRoot } from "hooks/userProductList";
-import RippleLoader from "components/atoms/RippleLoader/RippleLoader";
+import { useProductListRoot } from "../../../hooks/userProductList";
+import RippleLoader from "../../../components/atoms/RippleLoader/RippleLoader";
 
 export default function InventoryLayout() {
   const { isLoading } = useProductListRoot();

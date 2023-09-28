@@ -1,4 +1,4 @@
-import { PRICE_TYPE_VS_PRICE_RANGE } from "constants/product";
+import { PRICE_TYPE_VS_PRICE_RANGE } from "../constants/product";
 import { compose } from "../utils/compose";
 import { EMPTY_OBJECT } from "../utils/default";
 

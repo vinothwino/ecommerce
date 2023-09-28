@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./productList.module.scss";
 import ProductCard from "../../molecules/ProductCard/ProductCard";
 import useProductList from "../../../hooks/userProductList";
-import { getDiscountPrice } from "helpers/product.helpers";
+import { getDiscountPrice } from "../../../helpers/product.helpers";
 
 export default function ProductList() {
   const list = useProductList();

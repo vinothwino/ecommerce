@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import styles from "./checkbox.module.scss";
-import { EMPTY_ARRAY, EMPTY_FUNCTION } from "../../../utils/default";
+import { EMPTY_FUNCTION } from "../../../utils/default";
 
 export default function RadioButton(props) {
   const { value, onSelect, label, selected, renderAdditionalLabelContent } =

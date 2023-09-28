@@ -1,0 +1,29 @@
+@import '../../../assets/theme//mixins.scss';
+
+.clothes {
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+    @include custom-scrollbar;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        flex: 0 0 calc(100%);
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow: hidden;
+        margin-bottom: 40px;
+
+        @media screen and (min-width:768px) {
+            flex: 0 0 calc(100% / 3);
+        }
+
+        @media screen and (min-width:992px) {
+            flex: 0 0 calc(100% / 5);
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@mixin custom-scrollbar {
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: #f6f5f5;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #cfc9c9;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #e7e5e5;
+    }
+}

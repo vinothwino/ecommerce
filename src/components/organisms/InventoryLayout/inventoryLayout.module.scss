@@ -1,0 +1,13 @@
+.inventory {
+    display: flex;
+    height: 100vh;
+    max-width: 1400px;
+    margin: auto;
+
+    &__main {
+        flex-grow: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+}
